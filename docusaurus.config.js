@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Docs Kenny',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'The document and blog website',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -60,7 +60,7 @@ const config = {
         title: 'Docs Kenny',
         logo: {
           alt: 'Docs Kenny Logo',
-          src: 'img/logo.svg',
+          src: 'img/portrait.jpg',
         },
         items: [
           {
@@ -70,6 +70,7 @@ const config = {
             label: 'Docs',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/open-source', label: 'OpenSource', position: 'left' },
           {
             href: 'https://github.com/HuiWang111/docs-kenny',
             label: 'GitHub',
