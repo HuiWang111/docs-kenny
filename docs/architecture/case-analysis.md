@@ -5,13 +5,13 @@
 
 ### include/extend/generalization在编程中的概念是统一的
 - include
-    - 组合关系，class A有个x属性，A与x就是include组合关系
+  - 组合关系，class A有个x属性，A与x就是include组合关系
 
 ### 多态和泛型
 - 多态
-    - 一个对象可以处于多种状态
+  - 一个对象可以处于多种状态
 - 泛型
-    - 多个事物的一个切面的共性
+  - 多个事物的一个切面的共性
 
 ### 架构概念
 - 在一个设计原则下设计系统内部结构
@@ -26,16 +26,16 @@
 
 ### 前端架构
 - 展示层
-    - 页面
-    - 组件
-    - Hooks
-    - 容器
+  - 页面
+  - 组件
+  - Hooks
+  - 容器
 - 模型层
-    - 商品
-    - 账户
+  - 商品
+  - 账户
 - 公共层
-    - 组件库
-    - 工具库
+  - 组件库
+  - 工具库
 - 存储层
-    - Session storage
-    - Network service
+  - Session storage
+  - Network service

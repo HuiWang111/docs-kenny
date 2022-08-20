@@ -1,2 +1,38 @@
 # Introduction
-个人学习文档
+个人学习文档整理
+
+### 架构 
+ - [case-analysis](/docs/architecture/case-analysis)
+ - [state-machine](/docs/architecture/state-machine)
+### 后端 
+ - [innoDB](/docs/architecture/innoDB)
+ - [mysql](/docs/architecture/mysql)
+ - [redies](/docs/architecture/redies)
+### 计算机基础 
+ - [number-issue](/docs/architecture/number-issue)
+### 前端 
+ - [react](/docs/architecture/react)
+ - [vue](/docs/architecture/vue)
+ - [web-native](/docs/architecture/web-native)
+ - [攻防手段](/docs/architecture/攻防手段)
+### Javascript 
+ - [decorator](/docs/architecture/decorator)
+ - [ES6](/docs/architecture/ES6)
+ - [javascript](/docs/architecture/javascript)
+ - [JavaScript高级程序设计（第四版）阅读笔记](/docs/architecture/JavaScript高级程序设计（第四版）阅读笔记)
+ - [typescripts](/docs/architecture/typescripts)
+ - [高性能JavaScript阅读笔记](/docs/architecture/高性能JavaScript阅读笔记)
+### Node 
+ - [basic](/docs/architecture/basic)
+ - [principle](/docs/architecture/principle)
+### 操作系统相关 
+ - [clash-for-linux](/docs/architecture/clash-for-linux)
+ - [linux](/docs/architecture/linux)
+ - [show-git-branch-on-bash](/docs/architecture/show-git-branch-on-bash)
+ - [windows](/docs/architecture/windows)
+### Python 
+ - [spider](/docs/architecture/spider)
+### Shell 
+ - [basic](/docs/architecture/basic)
+### 工具 
+ - [docker](/docs/architecture/docker)
