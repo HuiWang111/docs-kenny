@@ -6,6 +6,10 @@ sudo uname --m # 查看系统是32位还是64位
 
 df -h --total # 查看系统存储空间
 
+df -h . # 查看当前挂载点存储空间使用情况
+
+gnome-session-properties # 打开startup applications
+
 # service相关
 systemctl enable clash.service # 设置开机自启动
 systemctl disable clash.service # 停止开机启动
@@ -29,23 +33,4 @@ sudo apt-get install yarn -y
 ```
 
 ### 2. install node
-Step 1. Unzip the binary archive to any directory you wanna install Node, I use `/usr/local/lib/nodejs`
-```bash
-VERSION=v10.15.0
-DISTRO=linux-x64
-sudo mkdir -p /usr/local/lib/nodejs
-sudo tar -xJvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/nodejs
-```
-
-Step 2. Set the environment variable `~/.profile`, add below to the end
-```bash
-# Nodejs
-VERSION=v10.15.0
-DISTRO=linux-x64
-export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
-```
-
-Step 3. Refresh profile
-```bash
-source ~/.profile
-```
+[nodesource](https://github.com/nodesource/distributions)
