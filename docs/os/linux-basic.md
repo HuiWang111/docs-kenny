@@ -10,6 +10,9 @@ df -h . # 查看当前挂载点存储空间使用情况
 
 gnome-session-properties # 打开startup applications
 
+# 启用dock图标最小化
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+
 # service相关
 systemctl enable clash.service # 设置开机自启动
 systemctl disable clash.service # 停止开机启动
@@ -18,7 +21,7 @@ systemctl list-units --type=service # 查看所有已启动的服务
 
 # 系统账户相关
 id -u # get current account id
-id -u {username} # get account id by username 
+id -u {username} # get account id by username
 ```
 
 ## 二 环境安装相关
