@@ -5,23 +5,34 @@
 - ConEmu
 
 ### alias
-```PowerShell
-alias cd~=cd /d "%UserProfile%"
-alias cdc=cd /d "%ConEmuDir%"
-alias clear=cls
-alias clink="C:\Program Files\cmder\vendor\clink\clink_x64.exe" $*
-alias cmderr=cd /d "%CMDER_ROOT%"
-alias gl=git log --oneline --all --graph --decorate  $*
-alias history="C:\Program Files\cmder\vendor\clink\clink_x64.exe" history $*
-alias ll=ls -l
-alias ls=ls --show-control-chars -F --color $*
-alias open=explorer $*
-alias pwd=cd
-alias unalias=alias /d $1
-alias vi=vim $*
-alias cdc=cd /d "%ConEmuDir%"
-alias cd~=cd /d "%UserProfile%"
+1. 创建文件
+```bash
+touch ~/alias.bat
 ```
+
+2. 设置常用别名
+```bat
+@echo off
+doskey p=pnpm $*
+doskey ls=dir /b $*
+doskey rm=del $*
+doskey -rf=/s $*
+doskey mk=md $*
+doskey clear=cls $*
+doskey ll=dir $*
+doskey cat=type $*
+doskey which=where $*
+doskey ifconfig=ipconfig $*
+doskey mv=move $*
+doskey cp=copy $*
+doskey touch=type nul>$*
+```
+
+3. 修改注册表
+- win+r，键入regedit，进入地址：计算机\HKEY_CURRENT_USER\Software\Microsoft\Command Processor
+- 右边空白处右键新建->字符串值
+- 双击编辑该值，随便起个名字（比如AutoRun），数值数据里填刚才新建的bat文件的路径
+- 确定后重启cmd，别名就可以用啦
 
 ### 端口查询
 ```shell
