@@ -25,7 +25,8 @@ doskey which=where $*
 doskey ifconfig=ipconfig $*
 doskey mv=move $*
 doskey cp=copy $*
-doskey touch=type nul>$*
+doskey cat=type $*
+doskey open=explorer $*
 ```
 
 3. 修改注册表
